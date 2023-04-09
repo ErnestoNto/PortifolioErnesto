@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+:root{
+    --color-white: #fafafa;
+
+    --font-primary: "Inter", sans-serif;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+    color: var(--color-white);
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    font-family: var(--font-primary);
+}
+
+header{
+    width: 100%;
+    height: 8vh;
+    padding: 1rem;
+    background-color: #261447;
+    color: var(--color-white);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* #9B5DE5,  */
+
+.hamburguer-menu{
+    cursor: pointer;
+    display: none;
+}
+
+.hamburguer-menu div{
+    width: 32px;
+    height: 2px;
+    background-color: var(--color-white);
+}
+
+.hamburguer-menu .line1{
+    margin-bottom: 8px;
+}
+
+.hamburguer-menu .line3{
+    margin-top: 8px;
+}
+
+nav ul{
+    list-style: none;
+    font-size: 1.25rem;
+    padding: 1rem;
+    display: flex;
+}
+
+nav li{
+    margin-left: 8px;
+}
+
+@media screen and (max-width: 999px) {
+    body{
+        overflow: hidden;
+    }
+
+    .nav-container{
+        position: fixed;
+        top: 8vh;
+        right: -100%;
+        background-color: #232323a2;
+        width: 50vw;
+        height: calc(100vh - 8vh);
+        padding: 4rem;
+        transition: .3s ease-in;
+        backdrop-filter: blur(10px)
+    }
+
+    ul{
+        height: 100%;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .hamburguer-menu{
+        display: block;
+    }
+}
+
+.active{
+    right: 0;
+}
