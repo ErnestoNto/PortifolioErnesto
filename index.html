@@ -7,6 +7,10 @@
     <link rel="stylesheet" href="css/style.css">
     <script src="js/app.js" defer></script>
     <title>Teste portifolio</title>
+
+    <script src="https://kit.fontawesome.com/9f79e1c174.js" crossorigin="anonymous"></script>
+
+    <script src="https://unpkg.com/scrollreveal"></script>
 </head>
 <body>
     <header>
@@ -20,12 +24,65 @@
 
         <nav class="nav-container">
             <ul>
-                <li><a class="nav-link" href="#home">Home</a></li>
+                <li><a class="nav-link" href="#main">Home</a></li>
                 <li><a class="nav-link" href="#sobre">Sobre</a></li>
                 <li><a class="nav-link" href="#skills">Skills</a></li>
                 <li><a class="nav-link" href="#projetos">Projetos</a></li>
             </ul>
         </nav>
     </header>
+
+    <main>
+        <section class="main" id="main">
+            <div class="title-container">
+                <h1 id="titulo-animado"></h1>
+                <h4 id="subtitulo-animado"></h4>
+            </div>
+            <img src="./img/bighead (1).svg" alt="Bighead">
+
+        </section>
+
+        <section class="sobre" id="sobre">
+            <h1 class="sobre-titulo">Sobre</h1>
+            <div class="content">
+                <img src="./img/31054859-a256-4b68-8dd2-8c2c93047c22-removebg-preview.png" alt="Foto de perfil">
+
+                <div class="conteudo">
+                    <p>
+                        Sou alguém curioso e apaixonado pelo mundo da programação, e quero usufruir de todo poder e liberdade que ela pode proporcionar. Estou em constante evolução diariamente, e no momento estou me aventurando mais como Front-end e já aprendi varias coisas com React.js, Redux, JavaScript, TypeScript, Styled Components, Tailwind CSS e consumo de APIs REST.
+                    </p>
+                    <div class="links">
+                        <a href="#" class="link">
+                            <i class="fa-brands fa-instagram"></i>
+                        </a>
+                        <a href="#" class="link">
+                            <i class="fa-brands fa-linkedin"></i>
+                        </a>
+                        <a href="#" class="link">
+                            <i class="fa-brands fa-github"></i>
+                        </a>
+                        <a href="#" class="link"></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="skills" id="skills">
+            <h1 class="sobre-titulo">Habilidades</h1>
+            <article class="tecnologies-container">
+                <div id="text-container">
+
+                </div>
+
+                <div class="tecnologies">
+                    <span>HTML</span>
+                    <span>CSS</span>
+                    <span>Javascript</span>
+                    <span>ReactJs</span>
+                    <span>CSS-in-JS</span>
+                </div>
+            </article>
+        </section>
+    </main>
 </body>
 </html>

@@ -1,6 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
 :root{
+    --color-primary: #261447;
+    --color-secundary: #F39C6B;
     --color-white: #fafafa;
 
     --font-primary: "Inter", sans-serif;
@@ -17,20 +19,36 @@ a{
     color: var(--color-white);
 }
 
+html{
+    scroll-behavior: smooth;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+    height: 8px;
+}
+
+::-webkit-scrollbar-track {
+    background-color: #232323;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: var(--color-secundary);
+}
+
 body{
-    width: 100%;
-    height: 100vh;
     font-family: var(--font-primary);
 }
 
 header{
+    position: fixed;
     width: 100%;
     height: 8vh;
     padding: 1rem;
     background-color: #261447;
     color: var(--color-white);
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
 }
 
@@ -45,6 +63,7 @@ header{
     width: 32px;
     height: 2px;
     background-color: var(--color-white);
+    transition: all .3s ease-in;
 }
 
 .hamburguer-menu .line1{
@@ -64,12 +83,19 @@ nav ul{
 
 nav li{
     margin-left: 8px;
+    letter-spacing: 3px;
+}
+
+nav li a {
+    padding: 5px;
+    border: 1px solid transparent;
+}
+
+nav li a:hover{
+    border-bottom: 2px solid var(--color-secundary);
 }
 
 @media screen and (max-width: 999px) {
-    body{
-        overflow: hidden;
-    }
 
     .nav-container{
         position: fixed;
@@ -95,6 +121,172 @@ nav li{
     }
 }
 
+.hamburguer-menu.active .line1{
+    /* transform: rotate(45deg) translate(9px, 6px); */
+    transform: rotate(45deg) translate(8px, 10px);
+}
+
+.hamburguer-menu.active .line2{
+    transform: translateX(-50px);
+    opacity: 0;
+}
+
+.hamburguer-menu.active .line3{
+    transform: rotate(-45deg) translate(4px, -6px);
+}
+
 .active{
     right: 0;
+}
+
+/* Home */
+
+.main{
+    background-color: var(--color-primary);
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    color: var(--color-white);
+    padding: 4rem 1rem 2rem;
+}
+
+.title-container{
+    width: 300px;
+}
+
+.title-container h1{
+    font-size: 2.5rem;
+}
+
+#subtitulo-animado{
+    color: var(--color-secundary);
+}
+
+.main img{
+    width: 500px;
+    max-width: 100%;
+    height: 500px;
+}
+
+@media screen and (max-width: 799px) {
+    .main{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .main img{
+        width: 300px;
+        height: 300px;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .main img{
+        display: none;
+    }    
+}
+
+/* Sobre */
+.sobre{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 100vh;
+    width: 100%;
+    background-color: var(--color-white);
+}
+
+.sobre-titulo{
+    font-size: 3rem;
+    border: 2px solid transparent;
+    border-bottom: 2px solid var(--color-secundary);
+    margin-bottom: 1.5rem;
+}
+
+.content{
+    width: 90%;
+    padding: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    gap: 1.5rem;
+}
+
+.content img{
+    width: 300px;
+    max-width: 100%;
+    height: 300px;
+    border-radius: 10px;
+    box-shadow: 4px 4px 2px #232323;
+}
+
+.conteudo{
+    width: 500px;
+    display: flex;
+    flex-direction: column;   
+}
+
+.links{
+    margin-top: 1rem;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.link{
+    color: #232323;
+    font-size: 1.5rem;
+    transition: .3s ease-in;
+}
+
+.link:hover{
+    transform: scale(1.3);
+    color: #ff0045;
+}
+
+@media screen and (max-width: 750px) {
+    .sobre-titulo{
+        font-size: 2rem;
+    }
+
+    .content img{
+        width: 200px;
+        height: 200px;
+        border-radius: 50%;
+        margin-bottom: 1rem;
+    }
+}
+
+/* Skills */
+.skills{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 100vh;
+    width: 100%;
+    background-color: var(--color-primary);
+    color: var(--color-white);
+}
+
+.tecnologies-container{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.tecnologies-container div{
+    height: 400px;
+    width: 400px;
+    background-color: #ff0045;
+    padding: 1rem;
+}
+
+.tecnologies-container div span{
+
 }
