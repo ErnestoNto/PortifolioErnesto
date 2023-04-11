@@ -62,3 +62,30 @@ tituloAnimado(texto, texto2)
 
 ScrollReveal().reveal('.sobre')
 ScrollReveal().reveal('.sobre-titulo')
+
+//Skills
+
+const tecnologies = document.querySelectorAll('.tecnologies button')
+const containerToTecnologie = document.querySelector('#text-container')
+
+console.log(tecnologies[0].innerHTML);
+
+function showTecnologies (tecnologie){
+    if(tecnologie === 'HTML'){
+        containerToTecnologie.innerHTML = 'HTML (Hypertext Markup Language) é a linguagem de marcação usada para criar páginas da web. É composto de uma série de elementos HTML que são usados para estruturar e apresentar o conteúdo de uma página da web.'
+    }
+    else if(tecnologie === 'CSS'){
+        containerToTecnologie.innerHTML = 'CSS (Cascading Style Sheets) é uma linguagem de estilo usada para controlar a apresentação de documentos HTML e XML. Ele é usado para definir o layout, as cores, as fontes, as animações e outros aspectos visuais de uma página da web.'
+    }
+    else if(tecnologie === 'Javascript'){
+        containerToTecnologie.innerHTML = 'JavaScript é uma linguagem de programação utilizada para adicionar interatividade e dinamicidade em páginas da web. É uma linguagem de script do lado do cliente, o que significa que ela é executada no navegador do usuário, permitindo que a página reaja aos eventos do usuário, como cliques em botões, movimentos do mouse, pressionamentos de tecla, entre outros.'
+    }
+    else if(tecnologie === 'ReactJs'){
+        containerToTecnologie.innerHTML = 'O React é uma biblioteca JavaScript popular utilizada para criar interfaces de usuário escaláveis e reutilizáveis em aplicações web. Ele utiliza componentes de UI e a renderização virtual para melhorar a performance e a velocidade da aplicação. O React é altamente flexível e pode ser utilizado em diferentes contextos, tornando-se uma ferramenta essencial para o desenvolvimento moderno de aplicações web.'
+    }
+    else if(tecnologie === 'CSS-in-JS'){
+        containerToTecnologie.innerHTML = 'CSS-in-JS é uma técnica de desenvolvimento front-end que permite escrever estilos CSS diretamente em arquivos JavaScript, eliminando a necessidade de arquivos CSS separados. Isso significa que o CSS é escrito dentro do próprio componente, tornando mais fácil de gerenciar, compartilhar e reutilizar os estilos.'
+    }
+}
+
+tecnologies.forEach(tecnologie => tecnologie.addEventListener('click', () => showTecnologies(tecnologie.innerHTML)))
