@@ -101,8 +101,8 @@ sr.reveal('.content img', {origin: 'left'})
 sr.reveal('.conteudo', {})
 
 //Scroll Skills
-sr.reveal('#text-container', {origin: 'left', delay: 200})
-sr.reveal('.tecnologies', {origin: 'right', delay: 200})
+sr.reveal('#text-container', {delay: 200})
+sr.reveal('.tecnologies', { delay: 200})
 
 //Scroll Portfolio
 sr.reveal('.projeto1', {delay: 100})
