@@ -339,6 +339,7 @@ nav li a:hover{
     align-items: center;
     justify-content: space-between;
     background-color: var(--color-white);
+    padding-top: 2rem;
 }
 
 .project-container{

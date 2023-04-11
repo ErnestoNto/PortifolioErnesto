@@ -58,11 +58,6 @@ function tituloAnimado (texto, texto2){
 
 tituloAnimado(texto, texto2)
 
-//
-
-ScrollReveal().reveal('.sobre')
-ScrollReveal().reveal('.sobre-titulo')
-
 //Skills
 
 const tecnologies = document.querySelectorAll('.tecnologies button')
@@ -87,3 +82,32 @@ function showTecnologies (tecnologie){
 }
 
 tecnologies.forEach(tecnologie => tecnologie.addEventListener('click', () => showTecnologies(tecnologie.innerHTML)))
+
+// Scroll Reveal animation
+const sr = ScrollReveal({
+    origin: 'top',
+    distance: '80px',
+    duration: 2000,
+    reset: true
+})
+
+// Scroll Home
+sr.reveal('.title-container', {})
+sr.reveal('.main-img', {origin: 'right', delay: 200})
+
+//Scroll About
+sr.reveal('.section-titulo', {})
+sr.reveal('.content img', {origin: 'left'})
+sr.reveal('.conteudo', {})
+
+//Scroll Skills
+sr.reveal('#text-container', {origin: 'left', delay: 200})
+sr.reveal('.tecnologies', {origin: 'right', delay: 200})
+
+//Scroll Portfolio
+sr.reveal('.projeto1', {delay: 100})
+sr.reveal('.projeto2', {delay: 200})
+sr.reveal('.projeto3', {delay: 300})
+sr.reveal('.projeto4', {delay: 400})
+sr.reveal('.projeto5', {delay: 500})
+sr.reveal('.projeto6', {delay: 600})
