@@ -68,8 +68,6 @@ ScrollReveal().reveal('.sobre-titulo')
 const tecnologies = document.querySelectorAll('.tecnologies button')
 const containerToTecnologie = document.querySelector('#text-container')
 
-console.log(tecnologies[0].innerHTML);
-
 function showTecnologies (tecnologie){
     if(tecnologie === 'HTML'){
         containerToTecnologie.innerHTML = 'HTML (Hypertext Markup Language) é a linguagem de marcação usada para criar páginas da web. É composto de uma série de elementos HTML que são usados para estruturar e apresentar o conteúdo de uma página da web.'
