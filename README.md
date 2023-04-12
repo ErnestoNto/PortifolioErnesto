@@ -4,8 +4,8 @@ Este é o meu portfólio pessoal, onde apresento meus projetos e habilidades em 
 ## Projetos
 <ul>
   <li>Projeto 1: Cronômetro Pomodoro. tecnologias utilizadas: HTML, CSS, Javascript, conta 25 minutos de trabalho e 5 de pausa, foi muito interessante para praticar lógica de programação.</li>
-  <li>Projeto 2: Descrição do projeto 2. Inclui tecnologias utilizadas, funcionalidades principais e resultados obtidos.</li>
-  <li>Projeto 3: Descrição do projeto 3. Inclui tecnologias utilizadas, funcionalidades principais e resultados obtidos.</li>
+  <li>Projeto 2: Site usando TMDB. tecnologias utilizadas: ReactJs, axios, styled components, exibe filmes tirados da api e foi um bom treino de consumir apis.</li>
+  <li>Projeto 3: To-do-list com typescript. tecnologias utilizadas: ReactJs, styled components, typescript, uma lista de tarefas que dá para adicionar, apagar e atualizar uma tarefa e muito bom para reforçar os conhecimentos em React e praticar o ts.</li>
 </ul>
 
 
