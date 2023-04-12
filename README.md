@@ -3,7 +3,7 @@ Este é o meu portfólio pessoal, onde apresento meus projetos e habilidades em 
 
 ## Projetos
 <ul>
-  <li>Projeto 1: . Inclui tecnologias utilizadas, funcionalidades principais e resultados obtidos.</li>
+  <li>Projeto 1: Cronômetro Pomodoro. tecnologias utilizadas: HTML, CSS, Javascript, conta 25 minutos de trabalho e 5 de pausa, foi muito interessante para praticar lógica de programação.</li>
   <li>Projeto 2: Descrição do projeto 2. Inclui tecnologias utilizadas, funcionalidades principais e resultados obtidos.</li>
   <li>Projeto 3: Descrição do projeto 3. Inclui tecnologias utilizadas, funcionalidades principais e resultados obtidos.</li>
 </ul>
