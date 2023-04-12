@@ -1,7 +1,10 @@
 # Meu Portfólio
 Este é o meu portfólio pessoal, onde apresento meus projetos e habilidades em programação. Aqui você pode encontrar uma visão geral dos meus projetos e informações sobre minhas habilidades em diferentes tecnologias e áreas de programação.
 
-## Projetos
+## Projeto
+<img src="https://user-images.githubusercontent.com/107278245/231580757-f3942434-31db-42a1-97ae-8fc03da844d6.png" alt="Foto do projeto" />
+
+## Projetos no portifólio
 <ul>
   <li>Projeto 1: Cronômetro Pomodoro. tecnologias utilizadas: HTML, CSS, Javascript, conta 25 minutos de trabalho e 5 de pausa, foi muito interessante para praticar lógica de programação.</li>
   <li>Projeto 2: Site usando TMDB. tecnologias utilizadas: ReactJs, axios, styled components, exibe filmes tirados da api, foi um bom treino de consumir apis.</li>
