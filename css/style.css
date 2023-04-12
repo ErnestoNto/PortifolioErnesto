@@ -450,3 +450,7 @@ nav li a:hover{
 .footer-nav ul li a:hover{
     text-decoration: underline;
 }
+
+.email{
+    color: var(--color-secundary) !important;
+}
