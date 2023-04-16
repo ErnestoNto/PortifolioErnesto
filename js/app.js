@@ -90,8 +90,7 @@ tecnologies.forEach((tecnologie) =>
 const sr = ScrollReveal({
   origin: "top",
   distance: "80px",
-  duration: 2000,
-  reset: true,
+  duration: 2000
 });
 
 // Scroll Home
