@@ -18,6 +18,6 @@ Este é o meu portfólio pessoal, onde apresento meus projetos e habilidades em 
 ## Tecnologias
 Para fazer o portifólio eu usei HTML, CSS e Javascript.
 ## Contato
-Email: ntoernesto123@gmail.com.
-LinkedIn: https://www.linkedin.com/in/ernesto-neto-b375a6238/
-Instagran: https://www.instagram.com/ern_neto/
+Email: ntoernesto123@gmail.com. <br/>
+LinkedIn: https://www.linkedin.com/in/ernesto-neto-b375a6238/ <br/>
+Instagran: https://www.instagram.com/ern_neto/ <br/>
