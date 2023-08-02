@@ -4,6 +4,9 @@ Este é o meu portfólio pessoal, onde apresento meus projetos e habilidades em 
 ## Projeto
 <img src="https://user-images.githubusercontent.com/107278245/231580757-f3942434-31db-42a1-97ae-8fc03da844d6.png" alt="Foto do projeto" />
 
+## Link do projeto
+<a href="https://portifolio-ernesto.vercel.app" />
+
 ## Projetos no portifólio
 <ul>
   <li>Projeto 1: Cronômetro Pomodoro. tecnologias utilizadas: HTML, CSS, Javascript, conta 25 minutos de trabalho e 5 de pausa, foi muito interessante para praticar lógica de programação.</li>
