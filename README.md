@@ -5,7 +5,7 @@ Este é o meu portfólio pessoal, onde apresento meus projetos e habilidades em 
 <img src="https://user-images.githubusercontent.com/107278245/231580757-f3942434-31db-42a1-97ae-8fc03da844d6.png" alt="Foto do projeto" />
 
 ## Link do projeto
-<a href="https://portifolio-ernesto.vercel.app" />
+<a href="https://portifolio-ernesto.vercel.app" >Clique aqui</a>
 
 ## Projetos no portifólio
 <ul>
